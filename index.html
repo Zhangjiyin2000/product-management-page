@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="product-management">
+            <table class="product-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Product Category</th>
+                        <th>Product Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="product-table-body"></tbody>
+            </table>
+
+            <hr>
+
+            <section class="form-section">
+                <h2>Add Product</h2>
+                <form id="product-form" class="product-form">
+                    <label for="product-name">Product Name:</label>
+                    <input id="product-name" name="name" type="text">
+
+                    <label for="product-category">Product Category:</label>
+                    <input id="product-category" name="category" type="text">
+
+                    <label for="product-price">Product Price:</label>
+                    <input id="product-price" name="price" type="text">
+
+                    <button type="submit">Add New</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

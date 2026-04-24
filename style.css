@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    width: min(96%, 1720px);
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.product-management {
+    margin-top: 0;
+}
+
+.product-table {
+    width: 88%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+}
+
+.product-table th,
+.product-table td {
+    border: 2px solid #767676;
+    padding: 4px 14px;
+    text-align: center;
+}
+
+.product-table th {
+    font-weight: 700;
+}
+
+.product-table .delete-button {
+    padding: 2px 10px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+hr {
+    width: 88%;
+    margin: 14px auto 34px;
+    border: none;
+    border-top: 2px solid #d0d0d0;
+}
+
+.form-section {
+    width: 88%;
+    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-section h2 {
+    margin: 0 0 38px;
+    font-size: 34px;
+}
+
+.product-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 26px;
+}
+
+/* .product-form input {
+    width: 270px;
+    height: 34px;
+    border: 2px solid #9b9b9b;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 8px;
+    box-sizing: border-box;
+}
+
+.product-form button {
+    height: 42px;
+    padding: 0 16px;
+    font-size: 22px;
+    cursor: pointer; */
+/* } */
+
+@media (max-width: 1100px) {
+    .product-table,
+    .form-section,
+    hr {
+        width: 100%;
+    }
+
+    .product-table {
+        font-size: 20px;
+    }
+
+    .product-table .delete-button,
+    .product-form button {
+        font-size: 18px;
+    }
+
+    .form-section h2 {
+        font-size: 30px;
+    }
+
+    /* .product-form {
+        font-size: 22px;
+    }
+
+    .product-form input {
+        width: 100%;
+        max-width: 320px;
+        font-size: 20px;
+    } */
+}
